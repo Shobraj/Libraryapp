@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{%block content%}
+
+<div class="container">
+    {{instance.book_name| capfirst}} by {{instance.author_name | capfirst}} </br> </br>
+
+<img src="{{instance.book_cover.url}}" alt=""></br>
+
+<a href="{% url 'updatebook' instance.id%}">Edit</a>
+
+</div>
+
+{%endblock%}
