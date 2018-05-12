@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #thrid party dependency
+    #third party apps
     'rest_framework',
+
     #my apps
     'books',
 ]
