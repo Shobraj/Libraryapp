@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #thrid party dependency
-    
+    'rest_framework',
     #my apps
     'books',
 ]
